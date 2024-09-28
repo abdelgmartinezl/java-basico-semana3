@@ -31,5 +31,7 @@ public class Semana3 {
         System.out.print("Numero Entero: ");
         int numeroLeido = scanner.nextInt();
         System.out.println("El numero leido es " + numeroLeido);
+
+        System.out.println("Vamos pa lante!");
     }
 }
