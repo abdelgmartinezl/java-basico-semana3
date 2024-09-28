@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Semana3 {
     public static void main(String[] args) {
         // Comentarios
@@ -24,6 +26,10 @@ public class Semana3 {
         int suma = numeroEntero1 + 37;
         System.out.println("El resultado es " + suma);
 
-
+        // Lectura por teclado
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Numero Entero: ");
+        int numeroLeido = scanner.nextInt();
+        System.out.println("El numero leido es " + numeroLeido);
     }
 }
