@@ -20,5 +20,10 @@ public class Semana3 {
 
         boolean esVerdadero = true;
 
+        // Operador Matematico
+        int suma = numeroEntero1 + 37;
+        System.out.println("El resultado es " + suma);
+
+
     }
 }
